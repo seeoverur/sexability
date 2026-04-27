@@ -19,6 +19,43 @@
             font-family: 'Inter', sans-serif;
             background-color: #f8f9fa;
         }
+        .blog-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+        }
+
+        .blog-card {
+            background-color: #fff;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 30px;
+            height: 100%;
+            border: 1px solid #e9ecef;
+        }
+
+        .blog-card .blog-category {
+            display: inline-block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #667EEA;
+            margin-bottom: 10px;
+        }
+
+        .blog-card h3 {
+            font-size: 1.35rem;
+            font-weight: 700;
+        }
+
+        .blog-card a {
+            color: #667EEA;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .blog-card a:hover {
+            text-decoration: underline;
+        }
         .navbar {
             box-shadow: 0 2px 4px rgba(0,0,0,.1);
         }
@@ -158,6 +195,45 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+        <!-- Blog Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Latest Sexual Wellness Discussions</h2>
+                <p class="lead text-muted mx-auto" style="max-width: 760px;">
+                    Explore thoughtful articles on intimacy, disability, low sex drive, confidence, communication,
+                    and the evolving conversation around sexual wellness.
+                </p>
+            </div>
+
+            <ul class="row g-4 blog-list">
+                <li class="col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <span class="blog-category">Sexual Wellness</span>
+                        <h3>Why Sexual Wellness Is Becoming Part of Everyday Health</h3>
+                        <p>
+                            Sexual wellness is no longer only discussed privately. Today, it is connected to mental health,
+                            confidence, communication, accessibility, and overall quality of life.
+                        </p>
+                        <a href="blog-latest-research.html">Read More</a>
+                    </div>
+                </li>
+
+                <li class="col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <span class="blog-category">Intimacy & Disability</span>
+                        <h3>How Disability and Intimacy Conversations Are Changing</h3>
+                        <p>
+                            More people are opening up about the need for inclusive education, adaptive support,
+                            emotional connection, and respectful guidance around intimacy and disability.
+                        </p>
+                        <a href="blog.html">Read More</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
